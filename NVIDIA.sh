@@ -70,9 +70,7 @@ dialog --msgbox "Install complete reboot your computer." 8 40
 
 
 
-# Display dialog box for user input
-#name=$(dialog --inputbox "Enter your name:" 8 40 --stdout)
-#age=$(dialog --inputbox "Enter your age:" 8 40 --stdout)
+
 
 # Display dialog box for user choice
 choice=$(dialog --menu "Choose Install GPU NVIDIA:" 15 40 3 \
