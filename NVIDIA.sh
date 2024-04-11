@@ -49,7 +49,7 @@ N470()
 {
 clear
 sudo pacman -S base-devel linux-headers git nano --needed --noconfirm
-yay -S nvidia-370xx-dkms nvidia-370xx-utils lib32-nvidia-370xx-utils nvidia-settings --noconfirm
+yay -S nvidia-470xx-dkms nvidia-470xx-utils lib32-nvidia-470xx-utils nvidia-settings --noconfirm
 dialog --msgbox "Install complete reboot your computer." 8 40
 }
 
