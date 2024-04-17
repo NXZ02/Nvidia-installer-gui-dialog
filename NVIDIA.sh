@@ -15,15 +15,22 @@ arch-dialog() {
     sudo pacman -Syu dialog --noconfirm
 fi
 }
+arch-lolcat() {
+    if ! which  lolcat > /dev/null; then
+    clear
+    sudo pacman -Syu dialog --noconfirm
+fi
+}
 pLoad(){
 clear
-echo -e " Please wait ... "
+echo -e " Please wait ... " | lolcat
 sleep 1
 
 }
 
 
 #_Main_
+arch-lolcat
 pLoad
 arch-yay
 arch-dialog
